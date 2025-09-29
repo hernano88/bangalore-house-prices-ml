@@ -54,11 +54,11 @@ En una misma ubicación, si la categoría BHK n tiene price_per_sqft < media de 
 
 Previo proceso
 
-fotos/pre.PNG
+![Previo proceso](fotos/pre.PNG)
 
 Post proceso
 
-fotos/pre.PNG
+![Previo proceso](fotos/post.PNG)
 
 4) Modelado y evaluación
 
