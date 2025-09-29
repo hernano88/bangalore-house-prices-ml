@@ -92,6 +92,10 @@ Selección de modelo con GridSearchCV (Linear Regression, Lasso, Decision Tree),
 
 ![Previo proceso](fotos/modelos.PNG)
 
+Función para generar el vector de features (superficie, baños, BHK y ubicación one-hot) y predecir el precio estimado con el modelo entrenado
+
+![Previo proceso](fotos/prediccion.PNG)
+
 ---
 
 ## 📊 Resultados
