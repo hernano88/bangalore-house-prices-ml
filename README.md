@@ -52,6 +52,14 @@ Por cada location, se queda con precios por m² dentro de [μ − σ, μ + σ].
 
 En una misma ubicación, si la categoría BHK n tiene price_per_sqft < media de BHK (n−1) (con suficiente soporte), se excluye.
 
+Previo proceso
+
+fotos/pre.PNG
+
+Post proceso
+
+fotos/pre.PNG
+
 4) Modelado y evaluación
 
 - Split 80/20 con train_test_split.
