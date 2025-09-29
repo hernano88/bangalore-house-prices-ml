@@ -102,7 +102,7 @@ Función para generar el vector de features (superficie, baños, BHK y ubicació
 
 - Dataset depurado con reducción de ruido y outliers (mejora la estabilidad del modelo).
 
-- R² (test) y mean CV score (completar con tus números al ejecutar el notebook).
+- R² (test) y mean CV score
 
 - predict_price() operativo para estimar precios por ubicación, superficie, baños y BHK.
 
