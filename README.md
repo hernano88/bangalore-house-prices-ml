@@ -88,28 +88,9 @@ Decision Tree Regressor
 
 ## 📸 Ejemplos (código del notebook)
 
-Scatter 2 vs 3 BHK por ubicación (ej. “Rajaji Nagar”)
+Selección de modelo con GridSearchCV (Linear Regression, Lasso, Decision Tree), destacando Linear Regression como el más performante 
 
-def plot_scatter_chart(df, location):
-    bhk2 = df[(df.location==location) & (df.bhk==2)]
-    bhk3 = df[(df.location==location) & (df.bhk==3)]
-    plt.scatter(bhk2.total_sqft, bhk2.price, label='2 BHK', s=50)
-    plt.scatter(bhk3.total_sqft, bhk3.price, marker='+', label='3 BHK', s=50)
-    plt.xlabel("Total Square Feet Area"); plt.ylabel("Price (Lakh INR)")
-    plt.title(location); plt.legend()
-
-
-Predicción con el modelo entrenado
-
-def predict_price(location, total_sqft, bath, bhk):
-    loc_index = np.where(X.columns == location)[0][0]
-    x = np.zeros(len(X.columns))
-    x[0], x[1], x[2] = total_sqft, bath, bhk
-    if loc_index >= 0:
-        x[loc_index] = 1
-    return lr_clf.predict([x])[0]
-
-predict_price('1st Phase JP Nagar', 1000, 2, 2)
+![Previo proceso](fotos/proceso.PNG)
 
 ---
 
