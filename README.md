@@ -90,7 +90,7 @@ Decision Tree Regressor
 
 Selección de modelo con GridSearchCV (Linear Regression, Lasso, Decision Tree), destacando Linear Regression como el más performante 
 
-![Previo proceso](fotos/proceso.PNG)
+![Previo proceso](fotos/modelos.PNG)
 
 ---
 
