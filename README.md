@@ -117,8 +117,6 @@ predict_price() operativo para estimar precios por ubicación, superficie, baño
 
 Artefactos listos para despliegue: banglore_home_prices_model.pickle + columns.json.
 
-Sugerencia: agregá capturas (scatter/histogramas) a pictures/ y referencialas en el README para que el repo luzca más visual.
-
 ---
 
 ## 🔧 Tecnologías utilizadas
