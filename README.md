@@ -38,9 +38,7 @@ Si no es convertible a número, se marca como None y se filtra.
 
 2) Ubicaciones y rareza
 
-- Conteo por location; las ubicaciones con ≤10 registros se agrupan como other.
-
-- One-hot encoding de location (se excluye other para evitar colinealidad).
+- Conteo por location, las ubicaciones con ≤10 registros se agrupan como other.
 
 3) Reglas de outliers
 
